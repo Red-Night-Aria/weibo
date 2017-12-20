@@ -2,11 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def signin(request):
-    return render(request, "signin.html")
+def login(request):
+    return render(request, "login.html")
 
-def signup(request):
-    return render(request, "signup.html")
+def register(request):
+    return render(request, "register.html")
 
-def index(request):
-    return render(request, "index.html")
+def show_activities(request):
+    return render(request, "show_activities.html")
